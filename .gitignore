@@ -1,0 +1,105 @@
+# Игнорируем папки сборки
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# Файлы проектов Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.db
+*.opendb
+
+# Папка кэша Visual Studio
+.vs/
+.vscode/
+
+# Файлы предкомпилированных заголовков
+*.pch
+*.ipch
+
+# Файлы отладки
+*.ilk
+*.pdb
+*.idb
+*.tlb
+*.tlh
+*.tmp
+*.log
+*.bsc
+*.cab
+
+# Исполняемые файлы и библиотеки
+*.exe
+*.o
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+
+# Временные файлы
+*.tmp
+*.temp
+*~
+*.swp
+
+# Файлы резервных копий
+*.bak
+*.backup
+
+# Файлы профилировщика
+*.gp
+*.gpd
+*.aps
+
+# Файлы инсталляторов
+*.msi
+*.msm
+*.msp
+
+# Файлы документации
+*.doc
+*.docx
+*.pdf
+
+# Файлы ресурсов
+*.rc
+*.res
+
+# Файлы автосохранения
+._*
+*.autosave
+
+# Файлы системы контроля версий (кроме .git)
+*.gitignore
+*.gitattributes
+
+# Файлы пакетов NuGet (если используете)
+packages/
+*.nupkg
+
+# Файлы CMake (если используете)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Файлы тестов
+*.gtest
